@@ -1,0 +1,22 @@
+
+
+.btn-custom{
+  background: linear-gradient(to right, #3498db, #e74c3c, #f39c12, #27ae60); /* Gradient with multiple colors */
+  color: #fff;
+}
+.background-image {
+  background-image: url('futurenature.jpg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 10px); /* Adjust for the navbar height */
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set minimum height to fill the viewport */
+}
+
+
+
